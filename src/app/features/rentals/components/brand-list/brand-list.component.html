@@ -1,0 +1,8 @@
+<div id="brands-list" class="row mx-3">
+  <app-loading-spinner *ngIf="!dataLoaded"></app-loading-spinner>
+  <app-brand-card
+    *ngFor="let brandListModel of brandList | filterBrandsList: brandFilterText"
+    [brandListModel]="brandListModel"
+    class="{{ class }} p-3 pt-0"
+  ></app-brand-card>
+</div>

@@ -1,0 +1,63 @@
+<div class="card">
+    <p-fieldset legend="Car of Your Choice">
+
+    </p-fieldset>
+
+    <p-inplace>
+        <ng-template pTemplate="display">
+            <div class="inline-flex align-items-center">
+                <span class="pi pi-image" style="vertical-align:auto"></span>
+                <span class="ml-2">View My Car Picture!</span>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="content">
+           <p-card> <img src="assets/core/images/tesla.jpg"width=550></p-card>
+        </ng-template>
+    </p-inplace><br>
+    
+        <p-fieldset legend="Car Rental Price">
+            $1000
+        </p-fieldset>
+  
+    <p-accordion >
+        <p-accordionTab header="Tesla Motor Features">
+            The performance model of Tesla Model S has a 3-phase and 4-pole AC motor. In the performance model of the vehicle, two electric motors mounted back-to-back deliver a total of 416 hp (310 kW). In the base version of the vehicle, there is a single electric motor that provides 362 hp (270 kW).
+The motors produced by Tesla Motors have a regenerative braking system that reduces energy consumption and increases brake life. The system, which enables the vehicle to brake itself, saves more than 60 kW of energy in a fully charged battery. It is also claimed by company officials that the Model S can travel 1 million miles with a single engine.
+        </p-accordionTab>
+        <p-accordionTab header="Tesla Battery Features">
+            One of the batteries in the battery of the Tesla Model S.
+            The battery used in Tesla Model S is produced from 7104 Panasonic branded condensed Lithium-ion batteries with a total weight of 540 kg. To obtain a battery with a capacity of 5 kWh, 74 of these batteries are connected in parallel. These batteries, which are connected in parallel, are connected to each other in 6 groups and a module is formed. 16 of these modules are required for the 85 kWh battery in the Tesla Model S. Experts state that the vehicle's battery is close to 25% of the total cost. It is thought that this cost will be reduced to much lower amounts with the completion of Tesla's Gigafactory[3], which is under construction in Nevada.
+        </p-accordionTab>
+        
+    </p-accordion>
+    <button type="button" pButton (click)="addRouting()" label="Rent Car!" class="p-button-success"></button>
+    <!-- <p-panel header="Features">
+        <b>Motor</b><br>
+        The performance model of Tesla Model S has a 3-phase and 4-pole AC motor. In the performance model of the vehicle, two electric motors mounted back-to-back deliver a total of 416 hp (310 kW). In the base version of the vehicle, there is a single electric motor that provides 362 hp (270 kW).
+The motors produced by Tesla Motors have a regenerative braking system that reduces energy consumption and increases brake life. The system, which enables the vehicle to brake itself, saves more than 60 kW of energy in a fully charged battery. It is also claimed by company officials that the Model S can travel 1 million miles with a single engine.<br>
+<b>Battery</b><br>
+
+One of the batteries in the battery of the Tesla Model S.
+The battery used in Tesla Model S is produced from 7104 Panasonic branded condensed Lithium-ion batteries with a total weight of 540 kg. To obtain a battery with a capacity of 5 kWh, 74 of these batteries are connected in parallel. These batteries, which are connected in parallel, are connected to each other in 6 groups and a module is formed. 16 of these modules are required for the 85 kWh battery in the Tesla Model S. Experts state that the vehicle's battery is close to 25% of the total cost. It is thought that this cost will be reduced to much lower amounts with the completion of Tesla's Gigafactory[3], which is under construction in Nevada.
+
+Tesla Model S's 60 kWh battery is guaranteed for 8 years or 200,000 kilometers. The battery with a capacity of 85 kWh is guaranteed for 8 years without any mileage limit.
+</p-panel> -->
+    <!-- <p-fieldset legend="Features">
+        <b>Motor</b>
+        The performance model of Tesla Model S has a 3-phase and 4-pole AC motor. In the performance model of the vehicle, two electric motors mounted back-to-back deliver a total of 416 hp (310 kW). In the base version of the vehicle, there is a single electric motor that provides 362 hp (270 kW).
+
+        The motors produced by Tesla Motors have a regenerative braking system that reduces energy consumption and increases brake life. The system, which enables the vehicle to brake itself, saves more than 60 kW of energy in a fully charged battery. It is also claimed by company officials that the Model S can travel 1 million miles with a single engine.
+
+<b>Battery</b>
+
+One of the batteries in the battery of the Tesla Model S.
+The battery used in Tesla Model S is produced from 7104 Panasonic branded condensed Lithium-ion batteries with a total weight of 540 kg. To obtain a battery with a capacity of 5 kWh, 74 of these batteries are connected in parallel. These batteries, which are connected in parallel, are connected to each other in 6 groups and a module is formed. 16 of these modules are required for the 85 kWh battery in the Tesla Model S. Experts state that the vehicle's battery is close to 25% of the total cost. It is thought that this cost will be reduced to much lower amounts with the completion of Tesla's Gigafactory[3], which is under construction in Nevada.
+
+Tesla Model S's 60 kWh battery is guaranteed for 8 years or 200,000 kilometers. The battery with a capacity of 85 kWh is guaranteed for 8 years without any mileage limit.
+
+<b>Charging, Warranty and Maintenance</b>
+The charging port of the Tesla Model S is located at the edge of the left taillight of the vehicle. Charging can be done with a 230 V domestic charger as well as with a 400 V fast charger. The fast charging device gives the vehicle a range of 110 kilometers per hour. In addition, Model S owners can charge their vehicles free of charge for life from fast charging stations called Tesla Supercharger.
+
+Tesla Model S has a warranty of 4 years or 80,000 kilometers, excluding battery warranty. The warranty period can be extended for +4 years and +80,000 kilometers with an additional payment of $4000.
+    </p-fieldset> -->
+
